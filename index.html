@@ -137,11 +137,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/Build.loader.js";
+        const loaderUrl = buildUrl + "/ARUnityTest.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Build.data",
-            frameworkUrl: buildUrl + "/Build.framework.js",
-            codeUrl: buildUrl + "/Build.wasm",
+            dataUrl: buildUrl + "/ARUnityTest.data",
+            frameworkUrl: buildUrl + "/ARUnityTest.framework.js",
+            codeUrl: buildUrl + "/ARUnityTest.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "WebXRTest",
